@@ -82,7 +82,7 @@ m_dmft, C_phi_dmft, S_phi_dmft, E_dmft = dmft.solve_hopfield_dmft(
 
 ```python
 # Model parameters
-n = 2                    # Interaction order (n=2 for quadratic interactions)
+n = 2                   # Interaction order
 alpha = 0.01            # Pattern loading parameter (P = alpha * N^n stored patterns)
 g = 1.5                 # Coupling strength
 a_scale = 0.8           # Initial pattern overlap strength
